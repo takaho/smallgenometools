@@ -9,7 +9,7 @@ if sys.version_info[0] < 3:
 else:
     from io import StringIO
 
-Bio.Entrez.email = 'takaho.endo@riken.jp'
+Bio.Entrez.email = 'your@email.address'
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-g', default=None, metavar='string', help='Entrez ID')
